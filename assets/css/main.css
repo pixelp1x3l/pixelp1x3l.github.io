@@ -1046,7 +1046,8 @@ button:disabled,
 @media screen and (max-width: 480px) {
     #main {
         padding: 4em 2em 2.5em 2em ;
-        width: 100%;
+        max-width: 75%;
+        width: auto;
     }
 
     #main .avatar:before {
